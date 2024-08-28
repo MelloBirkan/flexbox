@@ -1,35 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <title>Tea Cozy</title>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link href="../output.css" rel="stylesheet">
+  <title>Tea Cozy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-900 h-screen text-slate-50">
-<header class="bg-slate-900 px-3 h-16 fixed flex justify-between w-screen border-b border-zinc-400 items-center">
+<body class="bg-slate-900 text-white">
+<header class="bg-slate-900 px-3 h-16 fixed flex justify-between w-full border-b border-zinc-400 items-center z-50">
   <img alt="logo do Tea Cozy" class="h-12" src="images/Tea%20Cozy%20Logo.webp"/>
   <nav>
-    <ul class="flex gap-3 self-end underline text-xl ">
+    <ul class="flex gap-3 self-end underline text-xl">
       <li>Missão</li>
-      <li>Cha em destaque</li>
+      <li>Chá em destaque</li>
       <li>Localizações</li>
     </ul>
   </nav>
 </header>
-<main>
-  <section class="flex justify-center items-center">
-    <img alt="Mission background" class="h-[700px] w-[1200px]"
-         src="images/Mission%20Background.webp"/>
-    <article
-        class="my-auto absolute w-full flex flex-col bg-slate-900 z-10 px-3 items-center
-         justify-center gap-y-2 bg-opacity-60">
-      <h2 class="self-center font-extrabold text-4xl">Nossa Missão</h2>
-      <h4 class="font-bold text-xl">Chá selecionado a dedo, artesanalmente curado, de produção livre, sustentável, de
-        comércio justo e
-        orgânico</h4>
+<main class="pt-16">
+  <section class="relative">
+    <img alt="Mission background" class="w-full h-auto" src="images/Mission%20Background.webp"/>
+    <article class="absolute inset-0 flex flex-col items-center justify-center">
+      <div class="bg-slate-900 bg-opacity-60 p-4 text-center">
+        <h2 class="font-extrabold text-4xl mb-2">Nossa Missão</h2>
+        <h4 class="font-bold text-xl">Chá selecionado a dedo, artesanalmente curado, de produção livre, sustentável, de
+          comércio justo e orgânico</h4>
+      </div>
     </article>
   </section>
+  <section class="flex flex-col items-center mt-10 gap-5">
+    <article class="flex flex-col text-center gap-2">
+      <h3 class="text-3xl font-extrabold">Chá do Mês</h3>
+      <h4 class="text-xl font-bold">O que está em destaque no Tea Cozy?</h4>
+    </article>
+    <article class="flex gap-5 flex-wrap justify-center w-full">
+      <div class="flex flex-col items-center font-bold gap-2">
+        <img class="h-48 w-72" src="images/Berry%20Blitz.webp"/>
+        <p>Fall Berry Blitz Tea</p>
+      </div>
+      <div class="flex flex-col items-center font-bold gap-2">
+        <img class="h-48 w-72" src="images/Spiced%20Rum%201600x1067.webp"/>
+        <p>Spiced Rum Tea</p>
+      </div>
+      <div class="flex flex-col items-center font-bold gap-2">
+        <img class="h-48 w-72" src="images/Donut%201600x1067.webp"/>
+        <p>Sesonal Donuts</p>
+      </div>
+      <div class="flex flex-col items-center font-bold gap-2">
+        <img class="h-48 w-72" src="images/Donut%201600x1067.webp"/>
+        <p>Myrtle Ave Tea</p>
+      </div>
+      <div class="flex flex-col items-center font-bold gap-2">
+        <img class="h-48 w-72" src="images/Bedford%20Bizarre.webp"/>
+        <p>Bedford Bizarre Tea</p>
+      </div>
+    </article>
+  </section>
+
 </main>
 </body>
 </html>
