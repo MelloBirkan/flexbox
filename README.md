@@ -36,8 +36,8 @@ Neste projeto, o Flexbox foi utilizado principalmente para organizar os dias da 
 ```
 - **display: flex;** Ativa o Flexbox para o contêiner .row, onde cada linha representa um dia da semana com suas respectivas tarefas.
 - **flex-wrap: wrap;** Permite que os itens se movam para a próxima linha se o espaço horizontal não for suficiente, o que é útil em layouts responsivos.
-- **justify-content** space-around;: Distribui os itens igualmente com espaços ao redor deles, garantindo que haja um espaço uniforme entre os dias e as tarefas, além de margens externas consistentes
-- **align-items** center;: Alinha verticalmente os itens no centro do contêiner .row, garantindo que todos os elementos estejam centrados na linha.
+- **justify-content space-around**;: Distribui os itens igualmente com espaços ao redor deles, garantindo que haja um espaço uniforme entre os dias e as tarefas, além de margens externas consistentes
+- **align-items center**;: Alinha verticalmente os itens no centro do contêiner .row, garantindo que todos os elementos estejam centrados na linha.
 
   ## Vantagens de Usar Flexbox
 - **Flexibilidade**: Permite criar layouts que se ajustam automaticamente a diferentes tamanhos de tela e mudanças dinâmicas no conteúdo.
