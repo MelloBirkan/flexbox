@@ -12,34 +12,45 @@ elementos ou o espaço disponível varia.
 Nesse projeto, buscamos demonstrar as diferentes formas de organização de componentes usando o `justify-content`, 
 ilustrando cada exemplo com imagens fofas:
 
-1. **`justify-content: space-around;`**
+ <img height="200px" src="images-readme/space_around.png" />
+ 
+- **`justify-content: space-around;`**
    Separa as imagens com o mesmo espaçamento entre elas. No entanto, o espaço nas extremidades (bordas) é metade do espaço entre as imagens.
-
-2. **`justify-content: space-between;`**
+  
+ <img height="200px" src="images-readme/space_between.png" />
+ 
+- **`justify-content: space-between;`**
     Separa as imagens com o mesmo espaçamento entre elas, mas sem espaç nas bordas. As imagens nas extremidades tocam as bordas do contêiner.
 
-3. **`justify-content: space-evenly;`**
+<img height="200px" src="images-readme/space_evenly.png" />
+
+- **`justify-content: space-evenly;`**
     Distribui as imagens com o mesmo espaçamento entre todas elas, incluindo nas bordas.
 
-4. **`justify-content: flex-start;`**
+   <img height="200px" src="images-readme/flex_star.png" />
+
+- **`justify-content: flex-start;`**
     Alinha todas as imagens no início (à esquerda, por padrão) do contêiner.
 
-5. **`justify-content: flex-end;`**
+   <img height="200px" src="images-readme/flex_end.png" />
+
+- **`justify-content: flex-end;`**
     Alinha todas as imagens no final (à direita, por padrão) do contêiner.
 
-6. **`justify-content: center;`**
+   <img height="200px" src="images-readme/center.png" />
+
+- **`justify-content: center;`**
     Centraliza todas as imagens no meio do contêine.
 
-7. **`flex-direction: row-reverse;`**
+    <img height="200px" src="images-readme/row_reverse.png" />
+
+- **`flex-direction: row-reverse;`**
     Inverte a ordem das imagens, exibindo-as na direção oposta
 
-8. **`flex-grow;`**
-    Permite que a imagem (ou outro item) com `flex-grow` definido cresça para preencher o espaço livre disponível no contêiner.
+    <img height="200px" src="images-readme/flex_grow.png" />
 
-
-
-
-   
+- **`flex-grow;`**
+    Permite que a imagem (ou outro item) com `flex-grow` definido cresça para preencher o espaço livre disponível no contêiner.   
 
 ## Flexbox do projeto "todo"
 
