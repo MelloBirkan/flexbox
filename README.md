@@ -7,6 +7,40 @@ responsivos sem precisar recorrer a posicionamentos flutuantes (floats) ou tabel
 entre os itens em um contêiner e controlar o alinhamento dos elementos em uma página, mesmo quando o tamanho dos
 elementos ou o espaço disponível varia.
 
+## Flexbox do projeto "Doguinhos"
+
+Nesse projeto, buscamos demonstrar as diferentes formas de organização de componentes usando o `justify-content`, 
+ilustrando cada exemplo com imagens fofas:
+
+1. **`justify-content: space-around;`**
+   Separa as imagens com o mesmo espaçamento entre elas. No entanto, o espaço nas extremidades (bordas) é metade do espaço entre as imagens.
+
+2. **`justify-content: space-between;`**
+    Separa as imagens com o mesmo espaçamento entre elas, mas sem espaç nas bordas. As imagens nas extremidades tocam as bordas do contêiner.
+
+3. **`justify-content: space-evenly;`**
+    Distribui as imagens com o mesmo espaçamento entre todas elas, incluindo nas bordas.
+
+4. **`justify-content: flex-start;`**
+    Alinha todas as imagens no início (à esquerda, por padrão) do contêiner.
+
+5. **`justify-content: flex-end;`**
+    Alinha todas as imagens no final (à direita, por padrão) do contêiner.
+
+6. **`justify-content: center;`**
+    Centraliza todas as imagens no meio do contêine.
+
+7. **`flex-direction: row-reverse;`**
+    Inverte a ordem das imagens, exibindo-as na direção oposta
+
+8. **`flex-grow;`**
+    Permite que a imagem (ou outro item) com `flex-grow` definido cresça para preencher o espaço livre disponível no contêiner.
+
+
+
+
+   
+
 ## Flexbox do projeto "todo"
 
 Neste projeto, o Flexbox foi utilizado principalmente para organizar os dias da semana e as tarefas associadas,
