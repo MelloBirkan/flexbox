@@ -1,0 +1,107 @@
+body{
+  color: black;
+  background-color: lightblue;
+ /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.espacamento{
+  padding: 0px 60px;
+
+}
+
+.cabecalho h2 {
+  color: #a8e9ff;
+}
+
+
+
+.container{
+  display: flex;
+  background-color: #fff;
+  max-width: 1400px; 
+  width: 100%; 
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 4px 4px 12px #aaa;
+  padding: 20px 20px;
+  
+}
+
+
+.imagem{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  padding: 0px 15px;
+}
+
+.imagem_card{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  padding: 5px 5px;
+}
+
+.imagem_card2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding: 5px 5px;
+}
+
+.imagem_card3{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding: 5px 5px;
+}
+
+.imagemfalsa{
+  display: flex;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  padding: 0px 15px;
+  flex-grow: 1;
+}
+
+.imagem_card4{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  padding: 5px 5px;
+}
+.imagem_card5{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 5px 5px;
+}
+.imagem_card6{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 5px 5px;
+}
+.imagem_card7{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px 5px;
+}
+
+.imagem_card8{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 5px 5px;
+}
+
